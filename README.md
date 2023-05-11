@@ -5,7 +5,7 @@ This is the code for the paper ["Empirical Thresholding on Spatio-temporal Autoe
 Due to ethical considerations, the data used in the paper cannot be made publicly available. Here, we have provided a dummy data (sample_data.zip) for the purpose of running the code.
 
 # Usage of scripts
-setSplits.py: Returns indexes for I_t, I_v, O_t, O_v sets
+setSplits.py: Returns indexes for I_t, I_v, O_t, O_v sets.\n
 thresholds.py: Calculates threshold using one of many different thresholding approaches of choice.
 sample.py: Contains the sample code on how to use setSplits.py and thresholds.py scripts.
 
