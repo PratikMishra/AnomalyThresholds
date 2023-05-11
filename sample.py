@@ -3,7 +3,7 @@ from thresholds import thresholds
 from setSplits import setSplits
 
 #Sample on how to get indexes for I_t, I_v, O_t, O_v using setSplits function
-ff = h5py.File('trainResults_N.hdf5','r')
+ff = h5py.File('trainReconstructionErrors_N.hdf5','r')
 trainScores = np.array(ff['loss'])
 ff.close()
 index_inliers_train, index_inliers_val, index_outliers_train, index_outliers_val = setSplits(trainScores)
