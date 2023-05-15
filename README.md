@@ -9,8 +9,7 @@ Due to ethical considerations, the data used in the paper cannot be made publicl
 We first create two sets from the reconstruction error of full training samples (N) – Inliers (I) and Outliers (O), using IQR analysis with Ω = 1.5. In the absence of samples from 'agitation' class, O can serve as a proxy for unseen agitation events. Then, I and O are further divided with 90%-10% split into: training (I<sub>t</sub>, O<sub>t</sub>) and validation (I<sub>v</sub>, O<sub>v</sub>) sets (see above figure).
 
 # Usage of scripts
-setSplits.py: Returns indexes for I<sub>t</sub>, I<sub>v</sub>, O<sub>t</sub>, O<sub>v</sub> sets. <br />
-thresholds.py: Calculates threshold using one of many different thresholding approaches of choice. <br />
-sample.py: Contains the sample code on how to use setSplits.py and thresholds.py scripts. <br />
-
-The ["paper"](https://www.researchgate.net/profile/Shehroz-Khan-3/publication/370068564_Empirical_Thresholding_on_Spatio-temporal_Autoencoders_Trained_on_Surveillance_Videos_in_a_Dementia_Care_Unit/links/643dcf04e881690c4bdec548/Empirical-Thresholding-on-Spatio-temporal-Autoencoders-Trained-on-Surveillance-Videos-in-a-Dementia-Care-Unit.pdf) describes the details about the different thresholding approaches for an anomaly detection approach.
+Below is the description of different scripts:
+- setSplits.py: Returns indexes for I<sub>t</sub>, I<sub>v</sub>, O<sub>t</sub>, O<sub>v</sub> sets. <br />
+- thresholds.py: Calculates threshold using one of many different thresholding approaches of choice. <br />
+- sample.py: Contains the sample code on how to use setSplits.py and thresholds.py scripts. <br />
