@@ -6,7 +6,7 @@ Due to ethical considerations, the data used in the paper cannot be made publicl
 
 # Usage of scripts
 
-![Creating Validation Set from Normal Data]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/PratikMishra/AnomalyThresholds/blob/main/cross-validation.jpg))
+![Creating Validation Set from Normal Data](https://github.com/PratikMishra/AnomalyThresholds/blob/main/cross-validation.jpg)
 
 setSplits.py: Returns indexes for I_t, I_v, O_t, O_v sets. <br />
 thresholds.py: Calculates threshold using one of many different thresholding approaches of choice. <br />
