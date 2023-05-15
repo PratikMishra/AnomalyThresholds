@@ -6,10 +6,10 @@ Due to ethical considerations, the data used in the paper cannot be made publicl
 
 # Creating Validation Set from Normal Data
 ![Creating Validation Set from Normal Data](https://github.com/PratikMishra/AnomalyThresholds/blob/main/cross-validation.jpg)
-We first create two sets from the reconstruction error of full training samples (N) – Inliers (I) and Outliers (O), using IQR analysis Ω = 1.5. In the absence of samples from 'agitation' class, O can serve as a proxy for unseen agitation events. Then, I and O are further divided into (90%-10% split): training (I<sub>t</sub>, O<sub>t</sub>) and validation (Iv, Ov) sets (see above figure).
+We first create two sets from the reconstruction error of full training samples (N) – Inliers (I) and Outliers (O), using IQR analysis with Ω = 1.5. In the absence of samples from 'agitation' class, O can serve as a proxy for unseen agitation events. Then, I and O are further divided with 90%-10% split into: training (I<sub>t</sub>, O<sub>t</sub>) and validation (I<sub>v</sub>, O<sub>v</sub>) sets (see above figure).
 
 # Usage of scripts
-setSplits.py: Returns indexes for I_t, I_v, O_t, O_v sets. <br />
+setSplits.py: Returns indexes for I<sub>t</sub>, I<sub>v</sub>, O<sub>t</sub>, O<sub>v</sub> sets. <br />
 thresholds.py: Calculates threshold using one of many different thresholding approaches of choice. <br />
 sample.py: Contains the sample code on how to use setSplits.py and thresholds.py scripts. <br />
 
