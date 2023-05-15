@@ -4,6 +4,9 @@ This is the code for the paper ["Empirical Thresholding on Spatio-temporal Autoe
 # Data
 Due to ethical considerations, the data used in the paper cannot be made publicly available.
 
+# Creating Validation Set from Normal Data
+We first create two sets from the reconstruction error of full training samples (N) – Inliers (I) and Outliers (O), using IQR analysis Ω = 1.5.
+
 # Usage of scripts
 
 ![Creating Validation Set from Normal Data](https://github.com/PratikMishra/AnomalyThresholds/blob/main/cross-validation.jpg)
